@@ -5,7 +5,7 @@
   <title>Malcolm Wiredu | Portfolio</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="Malcolm Wiredu - Full Stack Developer, Freelancer & UI/UX Designer based in South Italy">
+  <meta name="description" content="Malcolm Wiredu - Full Stack Developer, Freelancer & AI Automation Specialist based in London">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,22 +24,21 @@
 
 <body>
   <header id="top" class="position-sticky top-0 start-0" style="z-index:10;">
-    <nav class="navbar bg-white fixed-top">
-      <div class="container-fluid">
-        <div class="d-flex align-items-center g-4">
+    <nav class="navbar bg-white fixed-top site-navbar">
+      <div class="container-fluid nav-shell">
+        <div class="d-flex align-items-center nav-brand-group">
           <a class="navbar-brand d-flex" href="../index.html">
             <img src="../img/Malcz.png" class="img-fluid" id="logo" alt="Malcolm Wiredu Logo">
           </a>
-          <div class="icon px-5">
-            <!-- Simplified social icons -->
-            <a href="#Contact" class="text-decoration-none mx-2">📞</a>
-            <a href="#" class="text-decoration-none mx-2">💬</a>
-            <a href="#" class="text-decoration-none mx-2">✉️</a>
+          <div class="contact-shortcuts d-flex align-items-center">
+            <a href="#phone-link" class="text-decoration-none" aria-label="Jump to phone number">📞</a>
+            <a href="#contact-details" class="text-decoration-none" aria-label="Jump to contact section">💬</a>
+            <a href="#email-link" class="text-decoration-none" aria-label="Jump to email address">✉️</a>
           </div>
         </div>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon">☰</span>
+        <button class="navbar-toggler border-0 menu-toggle" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation menu">
+          <span class="menu-toggle-icon" aria-hidden="true">☰</span>
         </button>
         <div class="offcanvas offcanvas-end text-white bg-black" tabindex="-1" id="offcanvasNavbar">
           <div class="offcanvas-header">
@@ -59,8 +58,7 @@
     </nav>
   </header>
 
-  
-<br><br><br><br><br>
+  <div class="page-top-spacing" aria-hidden="true"></div>
   <section class="portfolio py-5">
     <div class="container">
       <div class="row justify-content-center">
@@ -72,7 +70,19 @@
 
       <div class="row">
         <div class="col-md-4 mb-4">
-          <div class="card">
+          <div class="card h-100">
+            <a href="https://brain-dash-frontend.onrender.com/" target="_blank">
+              <img src="../img/livefeed.jpg" class="card-img-top" alt="Live Football Match project preview">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Live Football Match</h5>
+              <p class="card-text">Live Match Dashboard for a Gaming Company</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
             <a href="https://cosmetricsai.com/" target="_blank">
               <img src="../img/home_cosm.png" class="card-img-top" alt="Cosmetics AI Project">
             </a>
@@ -84,7 +94,7 @@
         </div>
         
         <div class="col-md-4 mb-4">
-          <div class="card">
+          <div class="card h-100">
             <a href="https://www.woseinternationalfilms.com/" target="_blank">
               <img src="../img/woseinterresponsive.png" class="card-img-top" alt="Wose Films Project">
             </a>
@@ -96,9 +106,9 @@
         </div>
         
         <div class="col-md-4 mb-4">
-          <div class="card">
+          <div class="card h-100">
             <a href="https://garageveterans.com/" target="_blank">
-              <img src="../img/garagevets.png" class="card-img-top" alt="garageveterans">
+              <img src="../img/garagevets.png" class="card-img-top" alt="Garage Veterans">
             </a>
             <div class="card-body">
               <h5 class="card-title">Garage Veterans</h5>
@@ -108,9 +118,9 @@
         </div>
         
         <div class="col-md-4 mb-4">
-          <div class="card">
+          <div class="card h-100">
             <a href="https://k-lerlandworks.com/" target="_blank">
-              <img src="../img/klerlandworks.png" class="card-img-top" alt="k-lerlandworks">
+              <img src="../img/klerlandworks.png" class="card-img-top" alt="K-Ler Landworks">
             </a>
             <div class="card-body">
               <h5 class="card-title">K-Ler Landworks</h5>
@@ -120,21 +130,21 @@
         </div>
 
         <div class="col-md-4 mb-4">
-          <div class="card">
+          <div class="card h-100">
             <a href="https://github.com/MikaCodez/GHITrestaurant/blob/main/README.md" target="_blank">
-              <img src="../img/ghitrestaruant.png" class="card-img-top" alt="k-lerlandworks">
+              <img src="../img/ghitrestaruant.png" class="card-img-top" alt="GHIT Restaurant">
             </a>
             <div class="card-body">
               <h5 class="card-title">GHIT Restaurant</h5>
-              <p class="card-text">GHIT Restaurant concept Fusion of Ghanaian and Italian cuisine </p>
+              <p class="card-text">GHIT Restaurant concept fusion of Ghanaian and Italian cuisine</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-4 mb-4">
-          <div class="card">
+          <div class="card h-100">
             <a href="https://cleliamente.com/" target="_blank">
-              <img src="../img/cleportspec.png" class="card-img-top" alt="cleliamente">
+              <img src="../img/cleportspec.png" class="card-img-top" alt="Cleliamente">
             </a>
             <div class="card-body">
               <h5 class="card-title">Cleliamente</h5>
@@ -152,11 +162,11 @@
       <div class="row">
         <div class="col-md-4 mb-4">
           <h5>Malcolm Wiredu</h5>
-          <p>Full Stack Developer & UI/UX Designer creating digital experiences that matter.</p>
+          <p>Full Stack Developer & AI Automation Specialist creating smart digital experiences that matter.</p>
           <div class="social-links">
-            <a href="#" class="text-white me-2">📱</a>
-            <a href="#" class="text-white me-2">💻</a>
-            <a href="#Contact" class="text-white me-2">📧</a>
+            <a href="#phone-link" class="text-white me-2">📱</a>
+            <a href="https://dev.to/mikacodez" class="text-white me-2" target="_blank" rel="noopener noreferrer">💻</a>
+            <a href="#email-link" class="text-white me-2">📧</a>
           </div>
         </div>
         <div class="col-md-4 mb-4">
@@ -165,18 +175,19 @@
             <li><a href="../index.html" class="text-white text-decoration-none">Home</a></li>
             <li><a href="portfolio.html" class="text-white text-decoration-none">Portfolio</a></li>
             <li><a href="https://dev.to/mikacodez" class="text-white text-decoration-none">Blog</a></li>
-            <li><a href="#Contact" class="text-white text-decoration-none">Contact</a></li>
+            <li><a href="#contact-details" class="text-white text-decoration-none">Contact</a></li>
+            <li><a href="https://github.com/MikaCodez" class="text-white text-decoration-none" target="_blank" rel="noopener noreferrer">Github</a></li>
           </ul>
         </div>
-        <div class="col-md-4 mb-4">
-          <h5 class="#Contact">Contact</h5>
-          <p>Email: <a href="mailto:malcolm.wiredu@gmail.com" class="text-white">malcolm.wiredu@gmail.com</a></p>
-          <p>Phone: +44 7930 223 512</p>
+        <div class="col-md-4 mb-4" id="contact-details">
+          <h5>Contact</h5>
+          <p id="email-link">Email: <a href="mailto:malcolm.wiredu@gmail.com" class="text-white">malcolm.wiredu@gmail.com</a></p>
+          <p id="phone-link">Phone: +44 7930 223 512</p>
           <p>Based in London</p>
         </div>
       </div>
       <div class="text-center pt-4">
-        <p>© 2025 Malcolm Wiredu. All rights reserved.</p>
+        <p>© 2026 Malcolm Wiredu. All rights reserved.</p>
       </div>
     </div>
   </footer>
